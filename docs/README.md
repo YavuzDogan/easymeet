@@ -1,4 +1,4 @@
-# easymeet.ai
+# easymeet.ai (Arbeitstitel)
 
 **KI-gestützte, multimodale Terminfindung für Gruppen mit komplexen Zeitplänen.**
 
@@ -26,12 +26,12 @@ Optional können die Vorschläge zur Abstimmung an die Gruppe geschickt werden.
 - **Deployment**: Railway/Fly/Render (API), WeWeb Hosting (Frontend)
 
 ## Projektstruktur
-easymeet/
-api/ # FastAPI Backend
-infra/sql/ # Supabase-Schema & SQL-Skripte
-n8n/ # exportierte n8n Workflows
-prompts/ # LLM-Promptvorlagen
-docs/ # Projekt-Dokumentation
+- easymeet/
+- api/ # FastAPI Backend
+- infra/sql/ # Supabase-Schema & SQL-Skripte
+- n8n/ # exportierte n8n Workflows
+- prompts/ # LLM-Promptvorlagen
+- docs/ # Projekt-Dokumentation
 
 ## Entwicklung
 1. `.env` Datei mit Supabase- und API-Keys erstellen (nicht in Git einchecken!)
